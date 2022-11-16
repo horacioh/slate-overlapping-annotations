@@ -1,0 +1,30 @@
+.app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.comments-level-1, .comments-level-2 {
+  border-bottom: 2px solid rgb(255, 212, 0);
+
+  .hide-comments & {
+    background-color: transparent !important;
+    border-bottom-color: transparent !important;
+  }
+}
+
+.comments-level-1 {
+  background: rgba(255,212,0,0.14);
+
+  &:hover {
+    background: rgba(255,212,0,0.34);
+  }
+}
+.comments-level-2 {
+  background: rgba(255,212,0,0.56);
+  
+  &:hover {
+    background: rgba(255,212,0,0.76);
+  }
+}
